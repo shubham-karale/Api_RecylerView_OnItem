@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:background="@color/black"
+    tools:context=".CommentActivity">
+
+    <TextView
+        android:id="@+id/commentName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Hello World!"
+        android:textColor="#fff"
+        android:textSize="40sp"
+        android:layout_margin="10dp"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:id="@+id/commentEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:textColor="#e29578"
+        android:padding="1dp"
+        android:textSize="40sp"
+        android:layout_margin="10dp"
+        android:textStyle="italic"/>
+
+
+    <TextView
+        android:id="@+id/commentBody"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:textColor="#fff"
+        android:textSize="40sp"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="10dp"
+        android:padding="5dp"
+        android:textStyle="normal"/>
+
+</LinearLayout>
